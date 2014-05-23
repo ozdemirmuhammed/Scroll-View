@@ -21,6 +21,9 @@
 		FA4A2FF5192F44640011837F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A2FD7192F44640011837F /* UIKit.framework */; };
 		FA4A2FFD192F44650011837F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA4A2FFB192F44650011837F /* InfoPlist.strings */; };
 		FA4A2FFF192F44650011837F /* Scroll_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4A2FFE192F44650011837F /* Scroll_ViewTests.m */; };
+		FA4A300B192F476B0011837F /* resim2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4A3008192F476B0011837F /* resim2.jpg */; };
+		FA4A300C192F476B0011837F /* resim1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4A3009192F476B0011837F /* resim1.jpg */; };
+		FA4A300D192F476B0011837F /* resim3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4A300A192F476B0011837F /* resim3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		FA4A2FFA192F44650011837F /* Scroll ViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scroll ViewTests-Info.plist"; sourceTree = "<group>"; };
 		FA4A2FFC192F44650011837F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA4A2FFE192F44650011837F /* Scroll_ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scroll_ViewTests.m; sourceTree = "<group>"; };
+		FA4A3008192F476B0011837F /* resim2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resim2.jpg; sourceTree = "<group>"; };
+		FA4A3009192F476B0011837F /* resim1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resim1.jpg; sourceTree = "<group>"; };
+		FA4A300A192F476B0011837F /* resim3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resim3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 		FA4A2FDA192F44640011837F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA4A3009192F476B0011837F /* resim1.jpg */,
+				FA4A3008192F476B0011837F /* resim2.jpg */,
+				FA4A300A192F476B0011837F /* resim3.jpg */,
 				FA4A2FDB192F44640011837F /* Scroll View-Info.plist */,
 				FA4A2FDC192F44640011837F /* InfoPlist.strings */,
 				FA4A2FDF192F44640011837F /* main.m */,
@@ -228,9 +237,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4A300D192F476B0011837F /* resim3.jpg in Resources */,
+				FA4A300B192F476B0011837F /* resim2.jpg in Resources */,
 				FA4A2FEC192F44640011837F /* Images.xcassets in Resources */,
 				FA4A2FDE192F44640011837F /* InfoPlist.strings in Resources */,
 				FA4A2FE7192F44640011837F /* Main.storyboard in Resources */,
+				FA4A300C192F476B0011837F /* resim1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    int temp;
+}
+
+- (IBAction)btnRefreshImage:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
+
+
 
 @end
